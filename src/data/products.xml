@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+  <product>
+    <id>1</id>
+    <name>Ноутбук Lenovo</name>
+    <category>Техніка</category>
+    <price>28999</price>
+  </product>
+  <product>
+    <id>2</id>
+    <name>Навушники Sony</name>
+    <category>Аксесуари</category>
+    <price>4599</price>
+  </product>
+</products>

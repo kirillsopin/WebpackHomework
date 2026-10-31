@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "HomeworkFont";
+  src: url("./fonts/DejaVuSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "HomeworkFont", Arial, sans-serif;
+  background: #f2f5fb;
+  color: #1f2937;
+}
+
+.header {
+  padding: 34px 24px;
+  color: white;
+  background: linear-gradient(120deg, #243b80, #536fca);
+  text-align: center;
+}
+
+.header h1 { margin: 0 0 10px; font-size: 28px; }
+.header p { margin: 0; opacity: .9; }
+
+.container { max-width: 1050px; margin: 28px auto; padding: 0 20px; }
+.status {
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background: #e4f7eb;
+  color: #17643a;
+}
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 5px 18px rgba(30, 50, 90, .08);
+}
+.card h2 { margin-top: 0; color: #314b9a; font-size: 19px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { padding: 10px 8px; border-bottom: 1px solid #e7ebf2; text-align: left; }
+th { color: #596579; background: #f7f8fc; }
+button {
+  border: 0; border-radius: 9px; padding: 10px 15px;
+  background: #405fc0; color: white; cursor: pointer; font: inherit;
+}
+button:hover { background: #2e4797; }
+#message { margin-top: 12px; color: #17643a; min-height: 20px; }
+.footer { text-align: center; color: #788397; padding: 20px; font-size: 13px; }
+
+@media (max-width: 600px) {
+  .header h1 { font-size: 22px; }
+  .container { margin-top: 18px; }
+}
